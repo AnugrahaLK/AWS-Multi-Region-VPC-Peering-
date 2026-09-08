@@ -13,3 +13,5 @@ Internet Gateway
     ↓
 Internet
 ```
+
+The NAT Gateway performs source address translation for outbound Internet connectivity. The private EC2 remains without a public IP.
