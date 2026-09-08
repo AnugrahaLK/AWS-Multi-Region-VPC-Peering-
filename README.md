@@ -238,3 +238,6 @@ Private EC2 → Private Route Table → NAT Gateway → IGW → Internet
 >
 > Jump Servers provide controlled administrative access to private instances.
 
+
+
+# NOTE : The Jump Server does not use the NAT Gateway to reach the private EC2. The Jump Server and private EC2 communicate using private VPC routing. The NAT Gateway is used when the private subnet needs outbound Internet access.
